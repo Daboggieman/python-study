@@ -14,15 +14,18 @@ def btree_delete_node(root, node):
         midpoint = start_point + (end_point - start_point) // 2
         mid_value = sort_root[midpoint]
         if node == mid_value:
-            del sort_root[midpoint]
+            del sort_root[mid_value]
+            return sort_root
         elif node < mid_value:
             end_point = midpoint - 1
         else: 
             start_point = midpoint + 1
+    print(sort_root)
     return None
 
+
 root_a = [2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 12, 13, 14, 15, 16, 17, 18, 19, 10]
-node_a = 17
+node_a = 4
 
 result_index = btree_delete_node(root_a, node_a)
 
@@ -31,4 +34,3 @@ if result_index is not None:
 else:
     print(f"\033[31m{node_a} was not found — nothing was DELETED 033[0m")
 
-print(root_a)
