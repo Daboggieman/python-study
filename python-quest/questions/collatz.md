@@ -1,3 +1,5 @@
+### DONE
+
 # Collatz Countdown
 
 Source: collatz
@@ -27,3 +29,5 @@ And its output :
 ```text
 9
 ```
+
+if number is even divide by 2, if number is odd multiply number by 3 and add 1 and repeat the sequence again till the final answer is 1
