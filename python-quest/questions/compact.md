@@ -1,3 +1,5 @@
+### DONE
+
 # Compact
 
 Source: compact
@@ -13,7 +15,7 @@ Write a function that returns the number of non-space elements present in the li
 
 Expected function
 ```python
-def compact(strings_list, length):
+def compact(strings_list):
     pass
 ```
 
