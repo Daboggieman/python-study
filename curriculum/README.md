@@ -16,9 +16,12 @@ This curriculum now includes a stronger foundation section for beginner essentia
 - 08_functions
 - 09_classes_oop
 - 10_files_exceptions
+- 10b_file_access
 - 11_testing
 - 12_standard_library
+- 12b_standard_library
 - 13_pip_virtual_envs
+- 13b_terminal_git
 - 14_apis_requests
 - 15_final_project
 - 16_modules_and_errors
