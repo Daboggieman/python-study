@@ -17,16 +17,3 @@ def main():
     pass
 ```
 
-
-Here is a possible program to test your function :
-```python
-import sys
-sys.argv = ["program", "sample.txt"]
-main()
-```
-
-And its output :
-```text
-Hello
-
-```
