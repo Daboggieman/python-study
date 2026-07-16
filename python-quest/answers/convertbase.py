@@ -37,7 +37,7 @@ def convertbase(number, base_from, base_to):
         conv = []
         while number > 0 :
             conv.append(number % base_to)
-            number = int(number / base_to)
+            number = (number // base_to)
         conv_answer = conv[::-1]
         answer = "".join(digit_map[nums] for nums in conv_answer)
     return answer
