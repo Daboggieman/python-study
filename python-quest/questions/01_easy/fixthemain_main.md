@@ -2,29 +2,29 @@
 
 Source: fixthemain_main
 
-Files to submit
+#### Files to submit:
 - solution.py
 
-Allowed functions
-- --allow-builtin
+#### Allowed functions:
+- Only built-in functions (no external imports besides sys)
 
-Instructions
-Write a program that prints a simple message using the fixed input format described by the exercise.
+#### Instructions:
+Write a function that reads a single string argument from the command line (sys.argv[1]),
+removes all digit characters from it, converts the result to title case, and prints it,
+followed by a blank line.
 
 Expected function
 ```python
 def fixthemain_main():
     pass
 ```
-
-
-Here is a possible program to test your function :
+Here is a possible program to test your function:
 ```python
-main()
+import sys
+sys.argv = ["program", "hello123"]
+fixthemain_main()
 ```
-
-And its output :
+And its output:
 ```text
 Hello
-
 ```
