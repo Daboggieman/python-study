@@ -1,3 +1,6 @@
+### DONE
+
+
 # Divmod
 
 Source: divmod
@@ -23,7 +26,7 @@ Here is a possible program to test your function :
 a = 13
 b = 2
 result = [0, 0]
-div_mod(a, b, result)
+divmod(a, b)
 print(result[0])
 print(result[1])
 ```

@@ -3,7 +3,7 @@ import sys
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python script.py <file1> [file2 ...]")
+        print("needs two files")
         return
 
     for filename in sys.argv[1:]:
