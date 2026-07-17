@@ -16,7 +16,7 @@ def any_value(predicate, list_items):
     else:
         return False
     
-print(any_value(lambda x: x > 2, [1, 2]))
+# print(any_value(lambda x: x > 2, [1, 2]))
 
-# print(any_value(lambda x: x > 2, [1, 2, ,3, 4, 5, 6]))
+print(any_value(lambda x: x < 8, [1, 2, 3, 4, 5, 6]))
 # print(any_value(lambda x: x > 2, (1, 2, ,3, 4, 5, 6)))        
