@@ -1,3 +1,6 @@
+### DONE
+
+
 # Fibonacci
 
 Source: fibonacci
@@ -20,7 +23,7 @@ def fibonacci(n):
 
 Here is a possible program to test your function :
 ```python
-print(fibonacci(7))
+print(fibonacci(6))
 ```
 
 And its output :
