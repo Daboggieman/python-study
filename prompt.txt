@@ -1,0 +1,52 @@
+no, don't fix anything ill do those myself.
+
+what i need is to add some more stuffs to the repo,
+
+the study repo is lacking in the area of DSA, data structure and algorithm, i want a new folder in the 'python-study' directory called DSA and using the "curriculum" folder style combined with the python-quest style populate it with topics as such (lists, 
+nodes, 
+linked lists, 
+binary tree, 
+stacks
+queues
+hash tables
+trees
+binary trees
+binary search tree
+AVL trees
+graphs
+linear search
+binary search
+bubble sort
+selection sort
+insertion sort
+counting sort
+radix sort
+merge sort )
+
+include questions ranging through different levels of difficulty, 
+include knowledge resources from w3schools and time proven sources across youtube and other sources,
+and put everything in the same format as curriculum + python-quest folders
+also write a very inexhaustible  cheatsheet
+
+
+
+THEN, do the same thing u have done for the new DSA folder to a new OOP folder
+OOP
+classes objects
+init method
+self parameters
+class properties
+class methods
+polymorphism
+
+
+THEN add some more to the already existing curriculum folder and the python-quest folder 
+match
+iterators
+modules
+math
+json
+try except
+virtual env
+
+

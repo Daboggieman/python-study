@@ -1,6 +1,6 @@
-# Fixthemain Main
+# Bubble Sort Basic
 
-Source: fixthemain_main
+Source: bubble_sort_basic
 
 Files to submit
 - solution.py
@@ -9,22 +9,21 @@ Allowed functions
 - --allow-builtin
 
 Instructions
-Write a program that prints a simple message using the fixed input format described by the exercise.
+Implement bubble sort: repeatedly compare adjacent elements and swap them if out of order, ascending.
 
 Expected function
 ```python
-def fixthemain_main():
+def bubble_sort(arr):
     pass
 ```
 
 
 Here is a possible program to test your function :
 ```python
-main()
+print(bubble_sort([5, 2, 4, 1]))
 ```
 
 And its output :
 ```text
-Hello
-
+[1, 2, 4, 5]
 ```

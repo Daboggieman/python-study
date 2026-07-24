@@ -1,9 +1,9 @@
 # Write your solution here
 def atoi(n):
-    if n.isdigit:
-        print(int(n))
+    if n.isdigit() :
+        return int(n)
     else:
-        n == 0
-        print(n)
-atoi("123")
-# atoi("abc")
+        return 0
+        
+print(atoi("123"))
+print(atoi("abc"))
