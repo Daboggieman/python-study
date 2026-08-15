@@ -4,11 +4,27 @@
 
 # TODO: Exercise 1 - iterative binary search, return index or -1
 def binary_search(arr, target):
-    pass
+    sort_arr = sorted(arr)
+    startpoint = sort_arr[0]
+    endpoint = sort_arr[len(sort_arr)-1]
+
+    while startpoint <= endpoint:
+        midpoint = startpoint + (endpoint-startpoint) // 2
+        midvalue = sort_arr[midpoint]
+
+# after successfully calculating midpoint, then proceed to check if the midpoint is equal the value of the target
+        if midpoint is target:
+            return midpoint
+        elif midpoint < target:
+            endpoint = midpoint - 1
+        else:
+            endpoint = midpoint + 1
+    return None
 
 
 # TODO: Exercise 2 - recursive binary search, return index or -1
 def binary_search_recursive(arr, target, low=0, high=None):
+    # find a target in an array with no le
     pass
 
 

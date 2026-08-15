@@ -5,7 +5,8 @@
 # TODO: Exercise 1
 # Define an empty Car class.
 class Car:
-    pass
+    def honk(self):
+        print("Beep beep")
 
 
 # TODO: Exercise 2
