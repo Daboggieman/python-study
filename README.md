@@ -1,3 +1,4 @@
+##OUTDATED README
 # 🐍 Python Study
 
 A structured, self-paced Python curriculum with **100 piscine-style practice questions** — from absolute beginner to API design, now with extra beginner-fundamentals modules for input/output, operators, and basic modules/errors.

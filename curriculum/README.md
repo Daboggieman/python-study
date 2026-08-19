@@ -25,3 +25,15 @@ This curriculum now includes a stronger foundation section for beginner essentia
 - 14_apis_requests
 - 15_final_project
 - 16_modules_and_errors
+- 17_match_statement
+- 18_iterators_and_generators
+- 19_modules_deep_dive
+- 20_math_module
+- 21_json_module
+- 22_exception_handling_advanced
+- 23_virtual_envs_in_practice
+
+## Related modules
+
+- `../DSA/` — a full Data Structures & Algorithms module (curriculum + quest style), covering lists through merge sort
+- `../OOP/` — a focused Object-Oriented Programming module (curriculum + quest style), covering classes through polymorphism

@@ -1,5 +1,4 @@
-### [...] REVISIT
-
+### DONE
 # Basic Atoi
 
 Source: basicatoi
