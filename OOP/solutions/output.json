@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Raph'el",
+    "action": "deposit",
+    "amount": 50,
+    "balance": 150,
+    "message": "50 has been credited to your account"
+  },
+  {
+    "name": "Raph'el",
+    "action": "withdraw",
+    "amount": 70,
+    "balance": 80,
+    "message": "70 has been withdrawn from your account balance"
+  },
+  {
+    "name": "Naomi Ogah",
+    "action": "deposit",
+    "amount": 32,
+    "balance": 117,
+    "message": "32 has been credited to your account"
+  },
+  {
+    "name": "Naomi Ogah",
+    "action": "withdraw",
+    "amount": 44,
+    "balance": 73,
+    "message": "44 has been withdrawn from your account balance"
+  },
+  {
+    "name": "Raph'el",
+    "action": "deposit",
+    "amount": 50,
+    "balance": 150,
+    "message": "50 has been credited to your account"
+  },
+  {
+    "name": "Raph'el",
+    "action": "withdraw",
+    "amount": 70,
+    "balance": 80,
+    "message": "70 has been withdrawn from your account balance"
+  },
+  {
+    "name": "Naomi Ogah",
+    "action": "deposit",
+    "amount": 32,
+    "balance": 117,
+    "message": "32 has been credited to your account"
+  },
+  {
+    "name": "Naomi Ogah",
+    "action": "withdraw",
+    "amount": 44,
+    "balance": 73,
+    "message": "44 has been withdrawn from your account balance"
+  }
+]
