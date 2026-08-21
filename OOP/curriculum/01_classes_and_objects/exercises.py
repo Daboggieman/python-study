@@ -5,6 +5,13 @@
 # brackets. Once Exercise 1 is done the file runs end to end -- the remaining
 # unfinished exercises just print nothing, so run it often to track progress.
 
+class Car:
+    def honk(self):
+        print("Beep beep!")
+    
+    def describe(self):
+        print(f"{self.year}, {self.make}, {self.model}")
+
 
 # TODO: Exercise 1  [lecture Part 1.2 - 1.3]
 # Define an empty Car class. Use `pass` for the body for now.
@@ -21,6 +28,7 @@
 # TODO: Exercise 3  [lecture Part 3.1]
 # Add a `honk` method to Car that prints exactly: Beep beep!
 # Remember the `self` first parameter.
+
 
 
 # TODO: Exercise 4  [lecture Part 3.2 - 3.3]
