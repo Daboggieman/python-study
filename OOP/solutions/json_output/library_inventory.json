@@ -1,61 +1,28 @@
 [
   {
+    "action": "add_book",
+    "id": 1,
     "isbn": "131",
-    "title": "engieneering mathematics volume 2",
+    "title": "engineering mathematics volume 2",
     "author": "A.F Abott",
     "rating": "13+",
-    "location": "isle 31, maths sections",
-    "is checked out": true,
-    "given to": "vfjhf",
-    "checkout date": 0,
-    "date Added": 0
+    "location": "isle 31, maths section",
+    "is_checked_out": false,
+    "given_to": null,
+    "date_added": 1787579930.9749825,
+    "checkout_date": null
   },
   {
-    "Action": "checkout",
+    "action": "add_book",
+    "id": 1,
     "isbn": "131",
-    "title": "engieneering mathematics volume 2",
+    "title": "engineering mathematics volume 2",
     "author": "A.F Abott",
     "rating": "13+",
-    "location": "isle 31, maths sections",
-    "is checked out": true,
-    "given to": "john doe",
-    "checkout date": 0,
-    "date Added": 0
-  },
-  {
-    "Action": "checkout",
-    "isbn": "131",
-    "title": "engieneering mathematics volume 2",
-    "author": "A.F Abott",
-    "rating": "13+",
-    "location": "isle 31, maths sections",
-    "is checked out": true,
-    "given to": "bad bunny",
-    "checkout date": 0,
-    "date Added": 0
-  },
-  {
-    "Action": "checkout",
-    "isbn": "131",
-    "title": "engieneering mathematics volume 2",
-    "author": "A.F Abott",
-    "rating": "13+",
-    "location": "isle 31, maths sections",
-    "is checked out": true,
-    "given to": "Sick user",
-    "checkout date": 0,
-    "date Added": 0
-  },
-  {
-    "Action": "checkout",
-    "isbn": "131",
-    "title": "engieneering mathematics volume 2",
-    "author": "A.F Abott",
-    "rating": "13+",
-    "location": "isle 31, maths sections",
-    "is checked out": true,
-    "given to": "Sick User",
-    "checkout date": 0,
-    "date Added": 0
+    "location": "isle 31, maths section",
+    "is_checked_out": false,
+    "given_to": null,
+    "date_added": 1787579964.4558566,
+    "checkout_date": null
   }
 ]
