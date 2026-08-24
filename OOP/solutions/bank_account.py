@@ -56,7 +56,7 @@ def append_json(filepath, record):
         json.dump(data, f, indent=2)
 
 
-filepath1 = "/home/student/python-study/OOP/solutions/output.json"
+filepath1 = "/home/student/python-study/OOP/solutions/json_output/account_history.json"
 
 acc = BankAccount("Raph'el", 100)
 result = acc.deposit(50)
@@ -71,7 +71,9 @@ result = acc.withdraw(1000)
 print(result)
 
 
-acc2 = BankAccount("Naomi Ogah", 85)
+# give accounts ID beside their variable name, i.e acc2 would be the account id/account number which carries the details of the account, including name, tier, balance, e.t.c 
+
+acc(f"{account_number}") = BankAccount(f"{account_name}, {balance}") # then u can add account type, tier, and any other thing that is needed to add
 result = acc2.deposit(32)
 append_json(filepath1, result)
 
