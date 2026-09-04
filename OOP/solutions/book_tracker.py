@@ -76,8 +76,8 @@ class Book:
 class Library:
     def __init__(self, filepath):
         self.filepath = filepath
-        self.books = {}         # book_id -> Book   (O(1) lookup by id)
-        self._isbn_index = {}   # isbn -> book_id    (O(1) duplicate check)
+        self.books = {}
+        self._isbn_index = {}
         self._next_id = 1
 
     def _log_action(self, action, book, extra=None):
