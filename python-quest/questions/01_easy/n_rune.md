@@ -9,7 +9,7 @@ Allowed functions
 - --allow-builtin
 
 Instructions
-Write a function that returns the nth character of a string.
+Write a function that returns the character at the nth index of a string.
 
 Expected function
 ```python
